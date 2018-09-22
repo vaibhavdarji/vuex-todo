@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoForm.vue renders an input field 1`] = `
+<el-form
+  class="todo-form"
+  model="[object Object]"
+  rules="[object Object]"
+>
+  <el-form-item
+    prop="todoItem"
+  >
+    <el-col
+      span="20"
+    >
+      <el-input
+        class="todo-input"
+        placeholder="Add Todo"
+      />
+    </el-col>
+     
+    <el-col
+      push="3"
+      span="2"
+    >
+      <el-button
+        type="primary"
+      >
+        Add
+      </el-button>
+    </el-col>
+  </el-form-item>
+</el-form>
+`;

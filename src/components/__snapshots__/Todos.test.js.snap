@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todos renders 1`] = `
+<el-table
+  class-name="todo-table"
+  data="[object Object]"
+  empty-text="No Items"
+  size="small"
+  style="width: 100%;"
+>
+  <el-table-column
+    width="55"
+  />
+   
+  <el-table-column />
+   
+  <el-table-column
+    width="55"
+  />
+</el-table>
+`;
